@@ -69,3 +69,57 @@ footer {
     background-color: #333;
     color: white;
 }
+
+/* Projects Page Styles */
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.project-item {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.project-item .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.project-item .btn:hover {
+    background-color: #2980b9;
+}
