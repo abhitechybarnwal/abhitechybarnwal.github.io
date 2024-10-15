@@ -58,7 +58,7 @@ p.intro-text {
 
 /* SVG Line Style for Connections */
 .connection {
-    stroke: #3498db;
+    stroke: #000507;
     stroke-width: 4;
 }
 
