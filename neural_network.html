@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How Neural Networks Work</title>
+    <link rel="stylesheet" href="nstyle.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <h1>Neural Network Visualizer</h1>
+        </div>
+    </nav>
+
+    <!-- Neural Network Animation Section -->
+    <section id="nn-visualization">
+        <h2>How Neural Networks Work</h2>
+        <div class="network-container">
+            <div class="layer input-layer">
+                <div class="neuron">x1</div>
+                <div class="neuron">x2</div>
+                <div class="neuron">x3</div>
+            </div>
+            <div class="layer hidden-layer">
+                <div class="neuron">h1</div>
+                <div class="neuron">h2</div>
+                <div class="neuron">h3</div>
+            </div>
+            <div class="layer output-layer">
+                <div class="neuron">y1</div>
+                <div class="neuron">y2</div>
+            </div>
+        </div>
+
+        <!-- Descriptive Text -->
+        <p class="description">
+            A neural network consists of multiple layers:
+            <br><br>
+            1. **Input Layer**: Receives the input data (e.g., features like `x1`, `x2`, `x3`).
+            <br>
+            2. **Hidden Layer**: Processes data through activation functions and weights, generating new features (e.g., `h1`, `h2`, `h3`).
+            <br>
+            3. **Output Layer**: Provides the final output (e.g., classification or prediction).
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name | Neural Network Visualizer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
